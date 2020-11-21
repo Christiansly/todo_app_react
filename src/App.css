@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -12,16 +10,38 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+input {
+  width: 70%;
+}
+.bold {
+  font-weight: bold;
+  font-size: large;
+}
 
+.extra {
+  font-size: small;
+}
+.done {
+  background-color: chartreuse;
+}
+.item {
+  padding: 5px;
+}
+form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center;
 }
 
 .App-link {
